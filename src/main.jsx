@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import GifExpertApp from './components/GifExpertApp';
-import './assets/styles/styles.css'
+import { GifExpertApp } from './components';
+import './assets/styles/styles.css';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
